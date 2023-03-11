@@ -24,7 +24,7 @@ app.set('view engine', 'handlebars');
 const sess = {
   secret: 'Super secret secret',
   cookie: {
-    // Session will expire in 10 minutes
+    // Session will expire in 11 minutes
     expires: 10 * 60 * 1000
   },
   resave: true,
