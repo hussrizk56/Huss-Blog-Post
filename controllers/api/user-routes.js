@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 
 // POST /api/users
 router.post('/', (req, res) => {
-    // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
+    // expects {username: 
   User.create({
     username: req.body.username,
     password: req.body.password
@@ -38,7 +38,7 @@ router.post('/', (req, res) => {
 });
 
 router.post('/login', (req, res) => {
-  // expects {email: 'lernantino@gmail.com', password: 'password1234'}
+  // expects {email:}
     User.findOne({
       where: {
         username: req.body.username

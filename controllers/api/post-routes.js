@@ -52,7 +52,7 @@ router.get('/', (req, res) => {
 
 //need to add withauth
 router.post('/', withAuth, (req, res) => {
-    // expects {title: 'Taskmaster goes public!', content: 'blog contents', user_id: 1}
+    // expects {title: '}
     Post.create({
       title: req.body.title,
       contents: req.body.contents,

@@ -44,3 +44,5 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
+
+<img src="./images/createpost.jpg" width="500px"/> 
